@@ -1,3 +1,0 @@
-FundFlow Dokploy universel - 2026-06-20 - build 2
-Port interne: 8000
-Compatibilite: Dockerfile, Nixpacks, Railpack, Docker Compose

@@ -1,7 +1,0 @@
-[variables]
-PYTHONUNBUFFERED = "1"
-PYTHONDONTWRITEBYTECODE = "1"
-PORT = "8000"
-
-[start]
-cmd = "sh start.sh"
