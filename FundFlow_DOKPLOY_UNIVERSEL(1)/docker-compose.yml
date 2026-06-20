@@ -1,0 +1,16 @@
+services:
+  fundflow:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    environment:
+      DATA_DIR: /app/data
+      DB_FILE: fundflow_stable.db
+    expose:
+      - "8000"
+    volumes:
+      - fundflow_data:/app/data
+
+volumes:
+  fundflow_data:
